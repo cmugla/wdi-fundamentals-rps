@@ -31,9 +31,6 @@ function getPlayerMove(move) {
     return getInput();
 }
 
-/*var playerMove = getPlayerMove(playerMove);
-console.log('Player chooses: '+playerMove);*/
-
 function getComputerMove(move) {
     // Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
@@ -43,8 +40,6 @@ function getComputerMove(move) {
     }
     return randomPlay();
 }
-/*var computerMove = getComputerMove(computerMove);
-console.log('Computer chooses: '+computerMove);*/
 
 function getWinner(playerMove,computerMove) {
     var winner;
@@ -79,7 +74,6 @@ function getWinner(playerMove,computerMove) {
     console.log('The winner is: '+winner);
     return winner;
 }
-/*getWinner(playerMove,computerMove);*/
 
 function playToFive() {
     console.log("Let's play Rock, Paper, Scissors");
